@@ -137,7 +137,8 @@ form .fields .input-fields-login {
   color: #333;
 }
 .container form button,
-.container-login form button {
+.container-login form button,
+.container-login form .button-logins {
   display: flex;
   justify-content: center;
   align-items: center;

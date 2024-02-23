@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/2.0.0/css/dataTables.dataTables.css"
+    />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- sidebar first -->
+    <div class="sidebar">
+      <div class="logo__name">
+        <i class="fa-solid fa-user-tie"></i>
+        <span>Member</span>
+      </div>
+      <ul class="menu">
+        <li class="active">
+          <a href="#">
+            <i class="fa-solid fa-gauge"></i>
+            <span>dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-user"></i>
+            <span>profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-box"></i>
+            <span
+              >product
+              <i class="fa-solid fa-lock"></i>
+            </span>
+          </a>
+        </li>
+        <li class="logout">
+          <a href="login.html">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <span>Logout</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- sidebar end -->
+
+    <!-- header first -->
+    <div class="main__content">
+      <div class="header__wrapper">
+        <div class="header__title">
+          <span>Dashboard</span>
+          <h2>Dashboard</h2>
+        </div>
+        <div class="user__info">
+          <div class="search__box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search" />
+          </div>
+          <img src="img/user.png" alt="" />
+        </div>
+      </div>
+      <!--main content first -->
+      <div class="card__container">
+        <div class="card__wrapper">
+          <div class="content__card">
+            <div class="card__icon">
+              <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div class="card__description">
+              <div class="card__title">
+                <span>People</span>
+              </div>
+              <div class="card__subtitle">
+                <span>10</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="content__card">
+            <div class="card__icon">
+              <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div class="card__description">
+              <div class="card__title">
+                <span>People</span>
+              </div>
+              <div class="card__subtitle">
+                <span>10</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="content__card">
+            <div class="card__icon">
+              <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div class="card__description">
+              <div class="card__title">
+                <span>People</span>
+              </div>
+              <div class="card__subtitle">
+                <span>10</span>
+              </div>
+            </div>
+          </div>
+          <div class="content__card">
+            <div class="card__icon">
+              <i class="fa-solid fa-dollar-sign"></i>
+            </div>
+            <div class="card__description">
+              <div class="card__title">
+                <span>People</span>
+              </div>
+              <div class="card__subtitle">
+                <span>10</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- table first -->
+        <div class="table__container">
+          <div class="table__title">
+            <span>data product</span>
+          </div>
+          <div class="row">
+            <table id="myTable" class="display">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Nama</th>
+                  <th>status</th>
+                  <th>action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>laravel</td>
+                  <td>booked</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!-- table end -->
+      </div>
+
+      <!--main content end -->
+    </div>
+    <!-- header end -->
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://cdn.datatables.net/2.0.0/js/dataTables.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#myTable").DataTable();
+      });
+    </script>
+  </body>
+</html>
